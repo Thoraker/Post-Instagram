@@ -1,29 +1,38 @@
-div {
-    border: 1px dotted red;
-}
-.post {
-    border: solid 3px black;
-    padding: 10px;
-    width: 420px;
-    height: auto;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
-i {
-    font-size: 20px;
+div {
+    background-color: white;
 }
 
 .cabecera {
     display: flex;
+    padding: 10px;
 }
 
-#cab1 {
-    width: 50px;
+.cuerpo {
+    padding: 10px;
 }
 
-#cab2 {
-    width: 300px;
+.post {
+    border: solid 3px black;
+    width: 400px;
+    margin: auto;
 }
 
-#cab3 {
-    width: 50px;
+#titulo {
+    width: 350px;
+    padding: 10px;
+}
+
+i {
+    font-size: 50px;
+    position: relative;
+    top: 25%;
+}
+
+#derecha {            
+    float: right;
 }
